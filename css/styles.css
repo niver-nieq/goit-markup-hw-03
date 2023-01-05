@@ -176,6 +176,11 @@ main li {
     color: var(--var-color-title);
 }
 
+.principal-title:hover,
+.principal-title:hover:active {
+    text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
+}
+
 .principal-text {
     font-size: 14px;
     line-height: 1.71em;
