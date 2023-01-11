@@ -36,7 +36,7 @@ body {
     height: 80px;
     padding-left: 15px;
     display: flex;
-    border-bottom: 2px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .cont-nav {
@@ -265,8 +265,8 @@ main li {
     color: var(--var-color-text);
 }
 
-.principal-text:hover,
-.principal-text:active {
+.principal-text-equipo:hover,
+.principal-text-equipo:active {
     text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
 
 }
@@ -368,13 +368,6 @@ main li {
 }
 
 /* Trabajo en la seción del boton pagina Portafolio */
-/* .cont-button {    
-    display: flex;
-} */
-
-/* .cont-button {  
-    text-align: center;
-} */
 
 .cont-button {
     display: flex;
@@ -432,9 +425,25 @@ main li {
 
 .portfolio-text {
     font-size: 14px;
+    text-align: center;
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: var(--var-color-text);
+}
+
+.cont-portafolio-img {
+    display: inline-flex;
+}
+
+.cont-img-portafolio {
+    width: 370px;
+    height: 430px;
+    left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 464px);
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* En esta posición trabajamos en el footer */
