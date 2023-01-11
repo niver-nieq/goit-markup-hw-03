@@ -16,13 +16,25 @@ body {
 
 /* En esta posición trabajo en el logo de la pagina */
 .cabezera {
-    width: 100%;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    display: flex;
     background: #FFFFFF;
+}
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+}
+
+.container-cabe-index {
+    width: 1200px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.container-cabe-portafolio {
+    width: 1200px;
+    padding-left: 15px;
+    display: flex;
+    border-bottom: 2px solid #ECECEC;
 }
 
 .link-web {
@@ -179,9 +191,20 @@ main li {
 .principal-detalles {
     display: flex;
     margin: auto;
-    width: 1170px;
-    margin-bottom: 94px;
-    margin-top: 95px;
+    padding: 0px;
+    justify-content: center;
+    width: 1050px;
+    /* background: red; */
+}
+
+.principal-detalles ul {
+    margin-top: 0px;
+    margin-bottom: auto;
+    padding: 0px;
+}
+
+.lis-detalle {
+    margin-right: 30px;
 }
 
 .principal-title {
@@ -213,21 +236,12 @@ main li {
 
 }
 
-.image-prin:hover,
-.image-prin:focus,
-.image-prin:active {
-    border: 4px solid var(--var-color-fondo-hover-focus);
-}
-
 /* Centramos las imagenes en la pagina principal */
 .cont-img {
-    width: 1173.16px;
-    height: 425px;
-    left: 215px;
-    top: 0px;
     display: block;
     margin: auto;
-    /* width: 80%; */
+    width: auto;
+    /* background: rebeccapurple; */
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
@@ -243,6 +257,23 @@ main li {
 
 .list-img {
     display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.images-detalle {
+    margin-right: 30.26px;
+}
+
+.image-prin-detalle {
+    width: 323.16px;
+    height: 273.7px;
+}
+
+.image-prin-detalle:hover,
+.image-prin-detalle:focus,
+.image-prin-detalle:active {
+    border: 4px solid var(--var-color-fondo-hover-focus);
 }
 
 /* Trabajo en la section de nuestro equipo */
@@ -254,7 +285,6 @@ main li {
 .lis-equipo {
     display: flex;
     margin: auto;
-    width: 80%;
 }
 
 /* .lista {
@@ -353,7 +383,15 @@ main li {
 
 /* En esta posición trabajamos en el footer */
 
-footer {
+.container-footer-index {
+    width: 1200px;
+    padding-left: 15px;
+    background: var(--var-color-fondo);
+}
+
+.container-footer-portafolio {
+    width: 1200px;
+    padding-left: 15px;
     background: var(--var-color-fondo);
 }
 
