@@ -26,23 +26,30 @@ body {
 
 .container-cabe-index {
     width: 1200px;
+    height: 80px;
     padding-left: 15px;
     display: flex;
 }
 
 .container-cabe-portafolio {
     width: 1200px;
+    height: 80px;
     padding-left: 15px;
     display: flex;
     border-bottom: 2px solid #ECECEC;
 }
 
+.cont-nav {
+    display: flex;
+}
+
 .link-web {
     text-decoration: none;
-    width: 145px;
+    margin: auto;
+    /* width: 145px;
     height: 31px;
     left: 215px;
-    top: 24px;
+    top: 24px; */
 
     font-family: 'Raleway';
     font-style: normal;
@@ -54,16 +61,11 @@ body {
     color: #2196F3;
 }
 
-.cont-nav {
-    display: flex;
-    margin-top: 24px;
-    margin-bottom: 25px;
-}
-
 /* En esta posición trabajo en la lista de navegación */
 .link-nav {
     display: flex;
     list-style: none;
+    margin: auto;
 }
 
 .link-nav a {
@@ -74,6 +76,7 @@ body {
     font-size: 14px;
     line-height: 1.7142em;
     letter-spacing: 0.02em;
+    margin: auto;
     margin-right: 50px;
 }
 
@@ -92,7 +95,11 @@ body {
     display: flex;
     list-style: none;
     margin-left: 294px;
-    margin-top: 40px;
+    margin: auto;
+    margin-left: 250px;
+    padding: auto;
+    padding-left: 0px;
+
 }
 
 .link-cont a {
@@ -104,6 +111,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--var-color-text);
     margin-right: 50px;
+    padding: 0px;
 }
 
 .link-cont a:hover,
@@ -162,6 +170,9 @@ main li {
     /* Centrar boton */
     display: block;
     margin: 0 auto;
+    width: 261px;
+    height: 50px;
+    justify-content: center;
 
     /* Le damos estilo a las letras  */
     font-family: inherit;
