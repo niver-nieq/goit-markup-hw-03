@@ -441,13 +441,18 @@ main li {
 
 .container-footer-index {
     width: 1200px;
+    /* height: 252px; */
     padding-left: 15px;
+    padding-top: 80px;
+    padding-bottom: 60px;
     background: var(--var-color-fondo);
 }
 
 .container-footer-portafolio {
     width: 1200px;
     padding-left: 15px;
+    padding-top: 80px;
+    padding-bottom: 60px;
     background: var(--var-color-fondo);
 }
 
@@ -459,6 +464,7 @@ main li {
     font-size: 26px;
     line-height: 1.15em;
     color: #2196F3;
+    margin-left: 100px;
     /* identical to box height */
     letter-spacing: 0.03em;
 }
@@ -466,6 +472,8 @@ main li {
 .link-footer {
     list-style: none;
     font-style: normal;
+    padding: 0%;
+    margin-left: 100px;
 }
 
 .link-footer a:hover,
