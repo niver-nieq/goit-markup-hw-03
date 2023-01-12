@@ -47,10 +47,6 @@ body {
 .link-web {
     text-decoration: none;
     margin: auto;
-    /* width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px; */
 
     font-family: 'Raleway';
     font-style: normal;
@@ -89,9 +85,7 @@ body {
 
 
 /* En esta ósición trabajo de la lista de contacto */
-/* .link-cont {
-    display: flex;
-} */
+
 .link-cont {
     display: flex;
     list-style: none;
@@ -119,9 +113,6 @@ body {
 }
 
 /* Ya esta listo el header */
-
-
-
 /* ************************************** */
 /* En esta posición trabajamos en el main */
 /* ************************************** */
@@ -135,14 +126,10 @@ main li {
 
 /* Trabajo en la section del titulo principal */
 .conten-prin {
-    width: 100%;
-    height: 400px;
-    left: 0px;
-    top: 80px;
     background: var(--var-color-fondo);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-top: 200px;
-    /* margin-bottom: 95px; */
+    padding-bottom: 200px;
 }
 
 .title {
@@ -253,6 +240,11 @@ main li {
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--var-color-text);
+}
+
+.principal-text:hover,
+.principal-text:active {
+    text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
 }
 
 .principal-text-equipo {
@@ -425,7 +417,6 @@ main li {
 
 .portfolio-text {
     font-size: 14px;
-    text-align: center;
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: var(--var-color-text);
