@@ -344,6 +344,7 @@ main li {
 
 /* Titulo del portafolio */
 .portfolio-title {
+    margin-left: 20px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -365,6 +366,8 @@ main li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .button1 {
@@ -416,21 +419,36 @@ main li {
 /* Trabajamos en los titulos del cuerpo h3 */
 
 .portfolio-text {
+    margin-left: 20px;
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: var(--var-color-text);
 }
 
+.cuepo-portafolio {
+    /* background: rebeccapurple; */
+    margin-top: 50px;
+}
+
 .cont-portafolio-img {
-    display: inline-flex;
+    /* background: red; */
+    margin: auto;
+    padding: 0px;
+    padding-left: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .cont-img-portafolio {
     width: 370px;
     height: 430px;
-    left: calc(50% - 370px/2 - 400px);
-    top: calc(50% - 404px/2 - 464px);
+    /* left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 464px); */
+
+    display: inline-flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
 
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
