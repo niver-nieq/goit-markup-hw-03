@@ -12,27 +12,25 @@ body {
     --var-color-fondo1: #F5F4FA;
 }
 
+.container {
+    width: 1200px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 /* En esta posición trabajamos en el header */
 
 /* En esta posición trabajo en el logo de la pagina */
 .cabezera {
     background: #FFFFFF;
-}
-
-.container {
-    width: 1200px;
-    padding-left: 15px;
-}
-
-.container-cabe-index {
-    width: 1200px;
     height: 80px;
     padding-left: 15px;
     display: flex;
 }
 
-.container-cabe-portafolio {
-    width: 1200px;
+.cabezera-portafolio {
     height: 80px;
     padding-left: 15px;
     display: flex;
@@ -75,6 +73,10 @@ body {
     letter-spacing: 0.02em;
     margin: auto;
     margin-right: 50px;
+}
+
+.current {
+    color: var(--var-color-fondo-hover-focus);
 }
 
 .link-nav a:hover,
@@ -227,9 +229,17 @@ main li {
     color: var(--var-color-title);
 }
 
+/* Aplicamos hover para los titulos */
+.title:hover,
 .principal-title:hover,
 .principal-title:hover,
-.principal-title-equipo:hover {
+.principal-text:hover,
+.principal-text:active,
+.title-pg-principal:hover,
+.principal-title-equipo:hover,
+.principal-text-equipo:hover,
+.portfolio-title:hover,
+.portfolio-text:hover {
     text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
 }
 
@@ -242,11 +252,6 @@ main li {
     color: var(--var-color-text);
 }
 
-.principal-text:hover,
-.principal-text:active {
-    text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
-}
-
 .principal-text-equipo {
     margin: auto;
     font-size: 14px;
@@ -255,12 +260,6 @@ main li {
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--var-color-text);
-}
-
-.principal-text-equipo:hover,
-.principal-text-equipo:active {
-    text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
-
 }
 
 /* Centramos las imagenes en la pagina principal */
@@ -302,9 +301,10 @@ main li {
 }
 
 .image-prin-detalle:hover,
-.image-prin-detalle:focus,
-.image-prin-detalle:active {
-    border: 4px solid var(--var-color-fondo-hover-focus);
+.image-prin-equipo:hover,
+.image-por:hover {
+    border: 2px solid var(--var-color-fondo-hover-focus);
+    border-radius: 2px;
 }
 
 /* Trabajo en la section de nuestro equipo */
@@ -352,12 +352,6 @@ main li {
     color: #212121;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
-}
-
-.image-por:hover,
-.image-por:focus,
-.image-por:active {
-    border: 4px solid var(--var-color-fondo-hover-focus);
 }
 
 /* Trabajo en la seción del boton pagina Portafolio */
@@ -435,8 +429,6 @@ main li {
     /* background: red; */
     margin: auto;
     padding: 0px;
-    padding-left: 16px;
-    padding-bottom: 0px;
     margin-bottom: 30px;
 }
 
@@ -457,17 +449,8 @@ main li {
 
 /* En esta posición trabajamos en el footer */
 
-.container-footer-index {
-    width: 1200px;
+footer {
     /* height: 252px; */
-    padding-left: 15px;
-    padding-top: 80px;
-    padding-bottom: 60px;
-    background: var(--var-color-fondo);
-}
-
-.container-footer-portafolio {
-    width: 1200px;
     padding-left: 15px;
     padding-top: 80px;
     padding-bottom: 60px;

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarea #3</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,15 +16,14 @@
 </head>
 
 <body>
-
-    <header class="cabezera">
-        <div class="container-cabe-portafolio">
+    <div class="container">
+        <header class="cabezera-portafolio">
             <nav class="cont-nav">
                 <a class="link-web" href="http://webstudio.com.bo/" target="_blank" title="Ir a pagina">WebStudio</a>
                 <!-- La navegación а otros sitios -->
                 <ul class="link-nav">
                     <li><a href="./index.html">Estudio</a></li>
-                    <li><a href="./portfolio.html">Portafolio</a></li>
+                    <li class="current"><a href="./portfolio.html">Portafolio</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
                 <!-- target="_blank" Este atribito o etiqueta no regideriona a otra pagina cuando hacemos click sobre algun tipo en especifico del texto -->
@@ -34,12 +34,10 @@
                 <li><a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="contacto" href="tel:+525555296000">+52 55 5529 6000</a></li>
             </ul>
-        </div>
-    </header>
+        </header>
 
-    <main>
-        <!-- Contenedor del portafolio -->
-        <div class="container">
+        <main>
+            <!-- Contenedor del portafolio -->
             <section class="cuepo-portafolio">
                 <!-- Contenedor de bonotes -->
                 <ul class="cont-button">
@@ -129,11 +127,9 @@
                     </li>
                 </ul>
             </section>
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <div class="container-footer-portafolio">
+        <footer>
             <a class="link-web-footer" href="https://taupe-melba-f719b1.netlify.app/" target="_blank"
                 title="Ir a pagina">Web<samp class="studiouno">Studio</samp></a>
             <address>
@@ -146,9 +142,8 @@
                     <li><a class="link-con" href="tel:+525555296000">+52 55 5529 6000</a></li>
                 </ul>
             </address>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>
