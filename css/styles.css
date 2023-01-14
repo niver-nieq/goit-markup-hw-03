@@ -203,6 +203,10 @@ main li {
     display: flex;
 }
 
+.lis-detalle {
+    margin-right: 30px;
+}
+
 .principal-title {
     font-style: normal;
     font-weight: 700;
@@ -220,10 +224,6 @@ main li {
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--var-color-text);
-}
-
-.lis-detalle {
-    padding-right: 30pxs;
 }
 
 .principal-title-equipo {
@@ -267,8 +267,6 @@ main li {
     margin: auto;
     width: auto;
     padding-top: 94px;
-    /* background: rebeccapurple; */
-    background: red;
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
