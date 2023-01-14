@@ -37,12 +37,6 @@ body {
     border-bottom: 1px solid #ECECEC;
 }
 
-.conten-prin {
-    background: var(--var-color-fondo);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
 
 .cont-nav {
     display: flex;
@@ -98,7 +92,8 @@ body {
     display: flex;
     list-style: none;
     margin: auto;
-    padding: auto;
+    padding: 0;
+    padding-left: 314px;
 
 }
 
@@ -131,15 +126,22 @@ main li {
     list-style: none;
 }
 
+.conten-prin {
+    background: var(--var-color-fondo);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 /* Trabajo en la section del titulo principal */
 
 .title {
     width: 696px;
-    height: 120px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 30px;
-
+    padding: 0px;
+    padding-bottom: 30px;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -147,6 +149,7 @@ main li {
     /* or 136% */
 
     text-align: center;
+    justify-content: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -189,22 +192,15 @@ main li {
 
 .principal-detalles {
     display: flex;
-    margin: auto;
-    margin-top: 55px;
     padding: 0px;
-    justify-content: center;
-    width: 1000px;
-    /* background: red; */
+    padding-top: 95px;
+    padding-left: 15px;
 }
 
 .principal-detalles ul {
-    margin-top: 0px;
-    margin-bottom: auto;
-    padding: 0px;
-}
-
-.lis-detalle {
-    margin-right: 30px;
+    padding: 0%;
+    margin: auto;
+    display: flex;
 }
 
 .principal-title {
@@ -215,6 +211,19 @@ main li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--var-color-title);
+}
+
+.principal-text {
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.71em;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--var-color-text);
+}
+
+.lis-detalle {
+    padding-right: 30pxs;
 }
 
 .principal-title-equipo {
@@ -242,15 +251,6 @@ main li {
     text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
 }
 
-.principal-text {
-    margin: auto;
-    font-size: 14px;
-    line-height: 1.71em;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    color: var(--var-color-text);
-}
-
 .principal-text-equipo {
     margin: auto;
     font-size: 14px;
@@ -266,14 +266,15 @@ main li {
     display: block;
     margin: auto;
     width: auto;
-    margin-top: 94px;
+    padding-top: 94px;
     /* background: rebeccapurple; */
+    background: red;
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
 .title-pg-principal {
     margin: auto;
-    margin-bottom: 50px;
+    padding-bottom: 55px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -285,23 +286,31 @@ main li {
 
 .list-img {
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 0%;
+    margin: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
 }
 
 .images-detalle {
+    width: 373.16px;
+    height: 323.7px;
     margin-right: 30.26px;
 }
 
+.images-detalle1 {
+    width: 373.16px;
+    height: 323.7px;
+}
+
 .image-prin-detalle {
-    width: 323.16px;
-    height: 273.7px;
+    width: 373.16px;
+    height: 323.7px;
 }
 
 .image-prin-detalle:hover,
 .image-prin-equipo:hover,
-.image-por:hover {
+.image-por:hover,
+.cont-img-portafolio:hover {
     border: 2px solid var(--var-color-fondo-hover-focus);
     border-radius: 2px;
 }
@@ -310,6 +319,7 @@ main li {
 .con-equipo {
     background: var(--var-color-fondo1);
     /* margin-top: 94px; */
+    padding-left: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -317,15 +327,27 @@ main li {
 .lis-equipo {
     display: flex;
     margin: auto;
-    padding: 0%;
-    padding-left: 10px;
+    padding: 0px
 }
 
 .conten-img-equipo {
     width: 270px;
     height: 368px;
     background: #FFFFFF;
-    margin-left: 20px;
+    margin-right: 30px;
+    /* margin-left: 20px; */
+    /* material shadow v1 */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.conten-img-equipo1 {
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    margin-right: 0px;
+    /* margin-left: 20px; */
     /* material shadow v1 */
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -342,16 +364,6 @@ main li {
 }
 
 /* Titulo del portafolio */
-.portfolio-title {
-    margin-left: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2em;
-    color: #212121;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-}
 
 /* Trabajo en la seción del boton pagina Portafolio */
 
@@ -386,6 +398,7 @@ main li {
     width: 145px;
     height: 38px;
     margin-right: 9px;
+    background: var(--var-color-fondo1);
 
     font-family: inherit;
     font-style: normal;
@@ -410,9 +423,21 @@ main li {
 }
 
 /* Trabajamos en los titulos del cuerpo h3 */
+.portfolio-title {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    color: #212121;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
 
 .portfolio-text {
-    margin-left: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
@@ -435,7 +460,7 @@ main li {
 
 .cont-img-portafolio {
     width: 370px;
-    height: 430px;
+    height: 404px;
     /* left: calc(50% - 370px/2 - 400px);
     top: calc(50% - 404px/2 - 464px); */
 
@@ -448,12 +473,17 @@ main li {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.image-por {
+    width: 370px;
+    height: 294px;
+}
+
 /* En esta posición trabajamos en el footer */
 
 footer {
     /* height: 252px; */
     padding-left: 15px;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 60px;
     background: var(--var-color-fondo);
 }
@@ -474,6 +504,8 @@ footer {
     list-style: none;
     font-style: normal;
     padding: 0%;
+    width: 231px;
+    height: 92px;
 }
 
 .link-footer a:hover,
