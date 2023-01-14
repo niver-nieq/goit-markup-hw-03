@@ -218,6 +218,7 @@ main li {
 }
 
 .principal-text {
+    width: 270px;
     margin: auto;
     font-size: 14px;
     line-height: 1.71em;
