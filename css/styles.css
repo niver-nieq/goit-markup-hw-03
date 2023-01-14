@@ -93,7 +93,7 @@ body {
     list-style: none;
     margin: auto;
     padding: 0;
-    padding-left: 314px;
+    padding-left: 290px;
 
 }
 
@@ -107,6 +107,11 @@ body {
     color: var(--var-color-text);
     margin-right: 50px;
     padding: 0px;
+}
+
+.svg-correo {
+    margin: auto;
+    padding-right: 10px;
 }
 
 .link-cont a:hover,
