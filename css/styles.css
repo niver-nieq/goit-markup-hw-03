@@ -37,9 +37,15 @@ body {
     border-bottom: 1px solid #ECECEC;
 }
 
+.conten-prin {
+    background: var(--var-color-fondo);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .cont-nav {
     display: flex;
-    padding-left: 100px;
 }
 
 .link-web {
@@ -93,7 +99,6 @@ body {
     list-style: none;
     margin: auto;
     padding: auto;
-    padding-left: 100px;
 
 }
 
@@ -127,12 +132,6 @@ main li {
 }
 
 /* Trabajo en la section del titulo principal */
-.conten-prin {
-    background: var(--var-color-fondo);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
 
 .title {
     width: 696px;
@@ -310,7 +309,7 @@ main li {
 /* Trabajo en la section de nuestro equipo */
 .con-equipo {
     background: var(--var-color-fondo1);
-    margin-top: 94px;
+    /* margin-top: 94px; */
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -361,7 +360,7 @@ main li {
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .button1 {
@@ -421,15 +420,17 @@ main li {
 }
 
 .cuepo-portafolio {
-    /* background: rebeccapurple; */
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 62px;
 }
 
 .cont-portafolio-img {
     /* background: red; */
     margin: auto;
     padding: 0px;
-    margin-bottom: 30px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cont-img-portafolio {
@@ -438,12 +439,12 @@ main li {
     /* left: calc(50% - 370px/2 - 400px);
     top: calc(50% - 404px/2 - 464px); */
 
-    display: inline-flex;
+    /* display: inline-flex; */
     margin-right: 20px;
     margin-bottom: 20px;
 
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    border-bottom: 2px solid #b0adad;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -465,7 +466,6 @@ footer {
     font-size: 26px;
     line-height: 1.15em;
     color: #2196F3;
-    margin-left: 100px;
     /* identical to box height */
     letter-spacing: 0.03em;
 }
@@ -474,7 +474,6 @@ footer {
     list-style: none;
     font-style: normal;
     padding: 0%;
-    margin-left: 100px;
 }
 
 .link-footer a:hover,
