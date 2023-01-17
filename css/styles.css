@@ -14,12 +14,12 @@ body {
 
 .container {
     width: 1200px;
-    /* padding-left: 15px; */
-    /* padding-right: 15px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
     margin-left: 15px;
     margin-right: 15px;
     min-width: 250;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 /* En esta posición trabajamos en el header */
@@ -31,16 +31,8 @@ body {
     padding-left: 15px;
     display: flex;
     min-width: 250;
-}
-
-.cabezera-portafolio {
-    height: 80px;
-    padding-left: 15px;
-    display: flex;
-    min-width: 250;
     border-bottom: 1px solid #ECECEC;
 }
-
 
 .cont-nav {
     display: flex;
@@ -275,7 +267,7 @@ main li {
 .principal-text-equipo:hover,
 .portfolio-title:hover,
 .portfolio-text:hover {
-    text-decoration: underline var(--var-color-fondo-hover-focus) 2px;
+    text-decoration: underline var(--var-color-fondo-hover-focus) 1px;
 }
 
 .principal-text-equipo {
@@ -294,8 +286,7 @@ main li {
     margin: auto;
     width: auto;
     padding-top: 94px;
-
-    min-width: 250;
+    padding-bottom: 94px;
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
@@ -335,9 +326,7 @@ main li {
 }
 
 .image-prin-detalle:hover,
-.image-prin-equipo:hover,
-.image-por:hover,
-.cont-img-portafolio:hover {
+.image-prin-equipo:hover {
     border: 2px solid var(--var-color-fondo-hover-focus);
     border-radius: 2px;
 }
@@ -345,7 +334,6 @@ main li {
 /* Trabajo en la section de nuestro equipo */
 .con-equipo {
     background: var(--var-color-fondo1);
-    /* margin-top: 94px; */
     padding-left: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -482,7 +470,6 @@ main li {
 }
 
 .cont-portafolio-img {
-    /* background: red; */
     margin: auto;
     padding: 0px;
     padding-left: 15px;
@@ -501,15 +488,20 @@ main li {
     /* display: inline-flex; */
     margin-right: 20px;
     margin-bottom: 20px;
-
+    border: 1px solid #EEEEEE;
     background: #FFFFFF;
-    border-bottom: 2px solid #b0adad;
+}
+
+.cont-img-portafolio:hover {
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .image-por {
     width: 370px;
     height: 294px;
+    padding-right: 1px;
 }
 
 /* En esta posición trabajamos en el footer */
