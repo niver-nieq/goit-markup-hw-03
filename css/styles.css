@@ -18,8 +18,14 @@ body {
     padding-right: 15px; */
     margin-left: 15px;
     margin-right: 15px;
-    min-width: 250;
     margin: 0 auto;
+}
+
+.section {
+    margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    /* background: #2196F3; */
 }
 
 /* En esta posición trabajamos en el header */
@@ -28,14 +34,13 @@ body {
 .cabezera {
     background: #FFFFFF;
     height: 80px;
-    padding-left: 15px;
     display: flex;
-    min-width: 250;
     border-bottom: 1px solid #ECECEC;
 }
 
 .cont-nav {
     display: flex;
+    padding-left: 15px;
 }
 
 .link-web {
@@ -130,7 +135,6 @@ body {
 /* En esta posición trabajamos en el main */
 /* ************************************** */
 main {
-    min-width: 250;
     background: var(--var-colo-text-hover-focus);
 }
 
@@ -144,8 +148,6 @@ main li {
     margin: auto;
     padding-top: 200px;
     padding-bottom: 200px;
-
-    min-width: 250;
 }
 
 /* Trabajo en la section del titulo principal */
@@ -173,27 +175,24 @@ main li {
 /* Trabajo en la seción del boton pagina Principal */
 .boton {
     /* Centrar boton */
-    display: block;
+    display: flex;
     margin: 0 auto;
-    width: 261px;
-    height: 50px;
+    align-items: center;
     justify-content: center;
     background: #2196F3;
     color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
 
     /* Le damos estilo a las letras  */
     font-family: inherit;
-    /* font-style: normal; */
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875em;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     cursor: pointer;
     border-radius: 4px;
     border: 2px solid var(--brand-color);
@@ -207,18 +206,15 @@ main li {
 }
 
 .principal-detalles {
-    display: flex;
     padding: 0px;
-    padding-top: 95px;
-    padding-left: 15px;
-
-    min-width: 250;
+    margin: 0 auto;
 }
 
 .principal-detalles ul {
-    padding: 0%;
-    margin: auto;
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 .lis-detalle {
@@ -232,6 +228,7 @@ main li {
     line-height: 1.428em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 0 auto;
     color: var(--var-color-title);
 }
 
@@ -282,17 +279,17 @@ main li {
 
 /* Centramos las imagenes en la pagina principal */
 .cont-img {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
-    width: auto;
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
 .title-pg-principal {
     margin: auto;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -305,17 +302,17 @@ main li {
 .list-img {
     display: flex;
     margin: 0px;
-    margin-right: 0px;
-    padding-left: 15px;
-}
-
-.images-detalle {
-    width: 373.16px;
-    height: 323.7px;
-    margin-right: 30.26px;
+    padding: 0px;
 }
 
 .images-detalle1 {
+    width: 373.16px;
+    height: 323.7px;
+    margin-left: 30.26px;
+    margin-right: 23.42px;
+}
+
+.images-detalle {
     width: 373.16px;
     height: 323.7px;
 }
@@ -333,12 +330,11 @@ main li {
 
 /* Trabajo en la section de nuestro equipo */
 .con-equipo {
+    display: flex;
+    flex-wrap: wrap;
     background: var(--var-color-fondo1);
-    padding-left: 15px;
-    padding-top: 94px;
     padding-bottom: 94px;
-
-    min-width: 250;
+    padding-top: 94px;
 }
 
 .lis-equipo {
@@ -348,25 +344,17 @@ main li {
 }
 
 .conten-img-equipo {
-    width: 270px;
-    height: 368px;
     background: #FFFFFF;
     margin-right: 30px;
-    /* margin-left: 20px; */
-    /* material shadow v1 */
+    padding-bottom: 30px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
 .conten-img-equipo1 {
-    width: 270px;
-    height: 368px;
     background: #FFFFFF;
-    margin-right: 0px;
-    /* margin-left: 20px; */
-    /* material shadow v1 */
-
+    margin: 0 auto;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -380,18 +368,20 @@ main li {
     text-decoration: none;
 }
 
-/* Titulo del portafolio */
+/* Trabajamos en el portafolio */
+.cuepo-portafolio {
+    margin: 0 auto;
+    padding: 0px;
+}
 
 /* Trabajo en la seción del boton pagina Portafolio */
-
 .cont-button {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
+    padding: 0px;
     padding-bottom: 50px;
-
-    min-width: 250;
 }
 
 .button1 {
@@ -408,7 +398,6 @@ main li {
     letter-spacing: 0.03em;
     color: var(--var-colo-text-hover-focus);
     border: 2px solid var(--brand-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     Background: var(--var-color-fondo-hover-focus);
 }
@@ -437,8 +426,64 @@ main li {
 .button1:hover,
 .button1:focus,
 .button1:active {
+    cursor: pointer;
     background: var(--var-color-fondo-hover-focus);
     color: var(--var-colo-text-hover-focus);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cont-portafolio-img {
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-img-portafolio {
+    width: 370px;
+    height: 404px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio1 {
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio2 {
+    width: 370px;
+    height: 404px;
+    margin-right: 30px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio3 {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.cont-img-portafolio:hover,
+.cont-img-portafolio1:hover,
+.cont-img-portafolio2:hover,
+.cont-img-portafolio3:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.image-por {
+    width: 370px;
+    height: 294px;
+    padding-right: 1px;
 }
 
 /* Trabajamos en los titulos del cuerpo h3 */
@@ -461,47 +506,6 @@ main li {
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: var(--var-color-text);
-}
-
-.cuepo-portafolio {
-    padding-top: 50px;
-    padding-bottom: 62px;
-    min-width: 250;
-}
-
-.cont-portafolio-img {
-    margin: auto;
-    padding: 0px;
-    padding-left: 15px;
-    display: flex;
-    flex-wrap: wrap;
-
-    min-width: 250;
-}
-
-.cont-img-portafolio {
-    width: 370px;
-    height: 404px;
-    /* left: calc(50% - 370px/2 - 400px);
-    top: calc(50% - 404px/2 - 464px); */
-
-    /* display: inline-flex; */
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #EEEEEE;
-    background: #FFFFFF;
-}
-
-.cont-img-portafolio:hover {
-    background: #FFFFFF;
-    border: 2px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.image-por {
-    width: 370px;
-    height: 294px;
-    padding-right: 1px;
 }
 
 /* En esta posición trabajamos en el footer */
