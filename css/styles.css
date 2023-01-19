@@ -111,20 +111,6 @@ body {
     padding: 0px;
 }
 
-.svg-correo {
-    margin: 0 auto;
-    margin-right: 10px;
-    padding: 0%;
-    width: 16px;
-    right: 12px;
-
-}
-
-.svg-correo:hover {
-    border: 2px solid var(--var-color-fondo-hover-focus);
-    border-radius: 2px;
-}
-
 .link-cont a:hover,
 .link-cont a:focus {
     color: var(--var-color-fondo-hover-focus);
