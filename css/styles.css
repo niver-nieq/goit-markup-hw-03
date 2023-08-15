@@ -35,8 +35,8 @@ body {
 
 .section {
     margin: 0 auto;
-    padding-bottom: 94px;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* En esta posición trabajamos en el header */
@@ -137,21 +137,23 @@ main li {
     list-style: none;
 }
 
-.conten-prin {
-    display: flex;
+.hero {
     align-items: center;
     background: var(--var-color-fondo);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin: auto;
-    height: 600px;
-    /* padding-top: 200px;
-    padding-bottom: 200px; */
+}
+
+.hero-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
 /* Trabajo en la section del titulo principal */
 
-.title {
-    width: 696px;
+.tittle {
     margin: 0 auto;
     padding: 0px;
     padding-bottom: 30px;
@@ -160,10 +162,8 @@ main li {
     font-size: 44px;
     line-height: 1.363em;
     /* or 136% */
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
@@ -227,6 +227,7 @@ main li {
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--var-color-text);
+    text-align: justify;
 }
 
 .principal-title-equipo {
@@ -250,9 +251,8 @@ main li {
     color: var(--var-color-text);
 }
 
-/* Centramos las imagenes en la pagina principal */
+
 .cont-img {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -292,7 +292,6 @@ main li {
 /* Trabajo en la section de nuestro equipo */
 .con-equipo {
     background: var(--var-color-fondo1);
-    padding-top: 94px;
 }
 
 .lis-equipo {
