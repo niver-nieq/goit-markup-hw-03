@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
 }
 
-.container-cabecera {
+.container-cabecera1 {
     display: flex;
     justify-content: center;
     width: 1200px;
@@ -47,6 +47,8 @@ body {
     height: 80px;
     display: flex;
     border-bottom: 1px solid #ECECEC;
+    margin: 0 auto;
+    gap: 344px;
 }
 
 .cont-nav {
